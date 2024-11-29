@@ -1,0 +1,124 @@
+body {
+  background: linear-gradient(to left, #858585, #f5fffd);
+}
+
+/* registration form css */
+
+.spinner-border {
+  border-color: #fff transparent #fff transparent;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+#bg_shadow::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#reg_heading {
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff; */
+  color: #000;
+}
+
+#reg_form {
+  background: #fff;
+}
+
+#sign_in {
+  color: #1783d0;
+  font-weight: 500;
+}
+
+#sign_in:hover {
+  color: #1475ba;
+}
+
+#loginbtn {
+  font-size: 15px;
+}
+
+/* navbar css */
+
+#navbar{
+  background: linear-gradient(to left, #322246, #0d1034);
+}
+
+#logo{
+  width: 75%;
+}
+
+/* #profile{
+  background: #1e1044;
+  color: #fff;
+} */
+
+#cart_icon{
+  font-size: 16px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+#cart_icon:hover{
+  color: #a40dc6;
+  transition: 0.5s;
+}
+
+.sliderimg{
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+}
+
+/* admin css */
+
+#sidebar{
+  background: rgb(14, 18, 32);
+}
+
+#sidebar h5{
+  color: #fff;
+}
+
+#sidebar h5:hover{
+  color: #e7a712;
+}
+
+
+#myimg{
+  width: 100px;
+  height: 100px; /* Fixed height for uniformity */
+  object-fit: cover; /* Image will be cropped to fit the container */
+}
+
+#editimage img{
+  width: 80px;
+}
+
+#editimage i{
+  cursor: pointer;
+}
+
+/* Footer css */
+
+#footer{
+  background: linear-gradient( #13121f , rgb(0, 0, 0));
+}
+
+#footer p:hover{
+  color: #fff;
+}
