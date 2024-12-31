@@ -59,7 +59,7 @@ body {
 }
 
 #logo{
-  width: 75%;
+  width: 100%;
 }
 
 /* #profile{
@@ -113,12 +113,15 @@ body {
   cursor: pointer;
 }
 
+
+/* Homepage css */
+
+/* .slider_img{
+
+} */
+
 /* Footer css */
 
 #footer{
   background: linear-gradient( #13121f , rgb(0, 0, 0));
-}
-
-#footer p:hover{
-  color: #fff;
 }
